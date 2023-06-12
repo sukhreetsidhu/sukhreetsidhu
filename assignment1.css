@@ -1,0 +1,157 @@
+#av {
+    clear: both;
+    font-family: sans-serif;
+   
+    display: inline;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 80px;
+   
+
+}
+
+
+
+p{
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    color: darkblue;
+    font-style: italic;
+    background-color: aliceblue;
+    overflow: auto;
+}
+
+
+
+  
+
+    #av {
+        display: inline-block;
+        padding: 0.5em;
+    }
+
+    nav span {
+        text-align: center;
+    }
+
+    nav a {
+        border-style: none;
+    }
+
+
+section {
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.section-title {
+
+  padding-bottom: 20px;
+}
+
+h1 {
+    color: darkblue;
+    margin-bottom: 0;
+}
+h2{
+    color: darkblue;
+    padding: 10px;
+    font-family: sans-serif;
+}
+li{
+    color: darkblue;
+    font-size: 15px;
+}
+
+nav {
+    display: block;
+    overflow: auto;
+    background-color: aliceblue;
+    font-weight: bold;
+    width: auto;
+    float: none;
+    width: auto;
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+#im:hover{
+    
+    transform: translate(5px, 5px);
+    
+    
+}
+@media only screen and (max-width: 1024px) {
+    body {
+        margin: 0;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    nav {
+        float: none;
+        width: auto;
+    }
+
+    #av {
+        display: inline-block;
+        padding: 0.5em;
+    }
+
+    nav span {
+        text-align: center;
+    }
+
+    nav a {
+        border-style: none;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    h1,
+    h2 {
+        font-size: 100%;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    p {
+        font-size: 90%;
+    }
+
+    figure {
+        display: none;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    #av {
+        display: block;
+    }
+
+    nav a {
+        display: block;
+        padding: 0.2em;
+        font-size: 1.3em;
+        border-bottom: 1px ridge #330000;
+    }
+
+}
+footer {
+
+    font-size: 70%;
+    text-align: center;
+    clear: right;
+    padding: 20px;
+   
+}
